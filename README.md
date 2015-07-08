@@ -17,8 +17,17 @@ Available kernels:
 ```
 
 ##Dependencies
+###Go Dependencies
 - https://github.com/pebbe/zmq4
-- ipython
+###ipython
+```bash
+$ pip install ipython[all]
+```
+###zeromq
+On osx:
+```bash
+$ brew install zeromq
+```
 
 ##Useful documentation
 - [Making kernels for IPython](https://ipython.org/ipython-doc/dev/development/kernels.html)
