@@ -14,3 +14,15 @@ type ConnectionFile struct {
 	IopubPort       int    `json:"iopub_port"`
 	Key             string `json:"key"`
 }
+
+type Message struct {
+	Header       Header
+	ParentHeader Header
+}
+
+type Header struct {
+	MsgId    string `json:"msg_id"`
+	Username string `json:"username"`
+	Session  string `json:"session"`
+	MsgType  string `json:"msg_type"`
+}
