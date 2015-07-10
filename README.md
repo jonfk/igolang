@@ -19,15 +19,21 @@ Available kernels:
 ##Dependencies
 ###Go Dependencies
 - https://github.com/pebbe/zmq4
+
 ###ipython
 ```bash
 $ pip install ipython[all]
 ```
-###zeromq
+###zeromq 4.x (using 4.0.4)
 On osx:
 ```bash
 $ brew install zeromq
 ```
+on ubuntu 14.04:
+```bash
+$ sudo apt-get install libzmq3-dev
+```
+
 
 ##Useful documentation
 - [Making kernels for IPython](https://ipython.org/ipython-doc/dev/development/kernels.html)
