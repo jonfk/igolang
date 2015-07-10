@@ -11,7 +11,7 @@ type ConnectionFile struct {
 	StdinPort       int    `json:"stdin_port"`
 	HbPort          int    `json:"hb_port"`
 	Ip              string `json:"ip"`
-	IopubPort       int    `json:"iopub_port"`
+	IOpubPort       int    `json:"iopub_port"`
 	Key             string `json:"key"`
 }
 
